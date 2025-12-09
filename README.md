@@ -4,7 +4,7 @@ Master's Thesis - Implementation of GraphSAGE-based anomaly detection on dynamic
 
 ## 🎯 Overview
 
-This repository contains the implementation of my Master's thesis on detecting anomalies in temporal graph data using Graph Neural Networks. The project addresses class imbalance through novel graph-based oversampling techniques and evaluates performance across multiple time periods.
+This repository contains the implementation of one part of my Master's thesis on detecting anomalies in temporal graph data using Graph Neural Networks. The project addresses class imbalance through novel graph-based oversampling techniques and evaluates performance across multiple time periods.
 
 ### Key Features
 
@@ -255,13 +255,5 @@ This is academic research code. If you find issues or have suggestions:
 - Optuna developers for hyperparameter optimization framework
 - Weights & Biases for experiment tracking tools
 
-## 📧 Contact
-
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- **Thesis**: [Link to PDF when available]
-
----
 
 **Note**: This repository contains code from my Master's thesis.
