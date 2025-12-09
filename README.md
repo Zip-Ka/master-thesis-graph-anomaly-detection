@@ -36,17 +36,6 @@ This repository contains the implementation of one part of my Master's thesis on
   - Metrics logging and visualization
   - Model checkpointing
 
-## 📊 Results
-
-| Metric | Validation | Test |
-|--------|-----------|------|
-| Composite Score | 0.XX | 0.XX |
-| Balanced Accuracy | 0.XX | 0.XX |
-| Class 1 Recall | 0.XX | 0.XX |
-| Class 1 F1 | 0.XX | 0.XX |
-| AUROC | 0.XX | 0.XX |
-| PR-AUC | 0.XX | 0.XX |
-
 ## 🚀 Quick Start
 
 ### Prerequisites
