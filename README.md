@@ -60,7 +60,7 @@ CUDA 11.7+ (for GPU support)
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/thesis-graph-anomaly-detection.git
+git clone https://github.com/Zip-Ka/thesis-graph-anomaly-detection.git
 cd thesis-graph-anomaly-detection
 
 # Install dependencies
@@ -101,30 +101,7 @@ thesis-graph-anomaly-detection/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── config/
-│   └── best_hyperparameters.yaml
-├── src/
-│   ├── __init__.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── graphsage.py          # GraphSAGE architecture
-│   │   └── layers.py              # Custom graph convolution layers
-│   ├── data/
-│   │   ├── __init__.py
-│   │   ├── data_handler.py        # Data loading and preprocessing
-│   │   └── graph_smote.py         # Graph-based SMOTE implementation
-│   ├── training/
-│   │   ├── __init__.py
-│   │   ├── trainer.py             # Main training logic
-│   │   ├── losses.py              # Custom loss functions
-│   │   └── metrics.py             # Evaluation metrics
-│   └── utils/
-│       ├── __init__.py
-│       └── visualization.py       # Plotting utilities
-├── notebooks/
-│   └── analysis.ipynb             # Exploratory analysis
-└── tests/
-    └── test_models.py
+├── training_pipeline.ipynb
 ```
 
 ## 🔧 Configuration
@@ -255,5 +232,3 @@ This is academic research code. If you find issues or have suggestions:
 - Optuna developers for hyperparameter optimization framework
 - Weights & Biases for experiment tracking tools
 
-
-**Note**: This repository contains code from my Master's thesis.
