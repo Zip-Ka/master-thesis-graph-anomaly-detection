@@ -1,4 +1,4 @@
-# Temporal Graph Neural Networks for Bitcoin Anomaly Detection
+# Temporal Graph Neural Network for Bitcoin Anomaly Detection
 
 Master's Thesis - Implementation of GraphSAGE-based anomaly detection on dynamic bitcoin networks 
 
