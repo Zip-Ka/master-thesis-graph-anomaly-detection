@@ -1,10 +1,10 @@
-# Temporal Graph Neural Networks for Anomaly Detection
+# Temporal Graph Neural Networks for Bitcoin Anomaly Detection
 
-Master's Thesis - Implementation of GraphSAGE-based anomaly detection on dynamic networks
+Master's Thesis - Implementation of GraphSAGE-based anomaly detection on dynamic bitcoin networks 
 
 ## 🎯 Overview
 
-This repository contains the implementation of one part of my Master's thesis on detecting anomalies in temporal graph data using Graph Neural Networks. The project addresses class imbalance through novel graph-based oversampling techniques and evaluates performance across multiple time periods.
+This repository contains the implementation of one part of my Master's thesis on detecting anomalies in temporal bitcoin graph data using Graph Neural Networks. The project addresses class imbalance through novel graph-based oversampling techniques and evaluates performance across multiple time periods.
 
 ### Key Features
 
@@ -185,38 +185,6 @@ where:
 - `α`: Class weights
 - `γ`: Focusing parameter (2.79)
 - `p_t`: Model probability for true class
-
-## 🧪 Experiments
-
-### Running Hyperparameter Search
-
-```bash
-python scripts/run_optimization.py --n-trials 50 --output config/
-```
-
-### Training with Best Parameters
-
-```bash
-python scripts/train_final.py --config config/best_hyperparameters.yaml
-```
-
-### Evaluation
-
-```bash
-python scripts/evaluate.py --model-path models/best_model.pt --test-timesteps 42-49
-```
-
-## 📊 Visualization
-
-Generate performance plots:
-
-```python
-from src.utils.visualization import MetricsVisualizer
-
-visualizer = MetricsVisualizer(wandb_run=wandb_run)
-visualizer.plot_confusion_matrix(y_true, y_pred, "Test Set")
-visualizer.plot_pr_curve(y_true, y_prob, "Precision-Recall")
-```
 
 ## 🤝 Contributing
 
